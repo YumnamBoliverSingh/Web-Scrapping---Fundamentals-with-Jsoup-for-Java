@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    >
+
+    <!-- Constraint Layout showing the List is Empty        |||          List View  -->
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:id="@+id/CL_emptTVs_LV"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        >-->
+<!--        &lt;!&ndash; CLose: Points Top &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginTop="10dp"-->
+
+<!--            android:id="@+id/IV_close_recentcheck_view"-->
+
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:background="?attr/selectableItemBackground"-->
+
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            android:src="@drawable/caplike_point_bottom_ic"-->
+<!--            />-->
+<!--        &lt;!&ndash; CLose: Points Bottom &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/IV_open_recentcheck_view"-->
+<!--            android:layout_width="21dp"-->
+<!--            android:layout_height="23dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+
+<!--            android:layout_marginTop="10dp"-->
+
+<!--            android:background="?attr/selectableItemBackground"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+
+<!--            android:src="@drawable/caplike_point_top_ic"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+<!--        &lt;!&ndash; Header DISPLAY "SI Your Recent Checks" &ndash;&gt;-->
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:id="@+id/rtv2"-->
+
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textStyle="bold"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                android:textSize="14dp"-->
+<!--                android:id="@+id/rtv1"-->
+<!--                android:layout_marginRight="-10dp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                android:textColor="#000000"-->
+<!--                android:text="Your recent checks"-->
+<!--                />-->
+<!--            <ImageView-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_marginRight="5dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:layout_constraintEnd_toStartOf="@id/rtv1"-->
+<!--                android:src="@drawable/search_black_icon"-->
+<!--                />-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--        &lt;!&ndash; List is EMPTY &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="13dp"-->
+<!--            android:textColor="#171717"-->
+<!--            android:id="@+id/TV_recent_listView_empty"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            android:layout_marginTop="5dp"-->
+
+<!--            app:layout_constraintTop_toBottomOf="@id/rtv2"-->
+<!--            android:text="You don't have any recent checks"-->
+<!--            />-->
+<!--        &lt;!&ndash; List View &ndash;&gt;-->
+<!--        <ListView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:id="@+id/LV_list_score_recent_URLs"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/rtv2"-->
+<!--            />-->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

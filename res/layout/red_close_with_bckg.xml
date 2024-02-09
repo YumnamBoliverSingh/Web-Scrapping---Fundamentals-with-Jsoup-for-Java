@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- General -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/element_surrounding_new"
+
+        android:paddingTop="6dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="34dp"
+
+        android:id="@+id/CL1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:id="@+id/tvg1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="5dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:text="G e n e r a l"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:text="(4 out of 12 Passed)"
+            android:id="@+id/genTVid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="29dp"
+            />
+        <ProgressBar
+            android:id="@+id/progressGEN"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:max="100"
+            app:layout_constraintTop_toBottomOf="@id/genTVid"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="60dp"
+            android:progress="33"
+            android:progressBackgroundTint="#880002"
+            android:progressTint="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/progressGEN"
+             android:text="33%"
+            android:textStyle="bold"
+            android:layout_marginTop="-3dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="#000000"
+            android:layout_marginRight="5dp"
+            android:textSize="11dp"
+            android:id="@+id/genTVscore"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Content -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/CL1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/element_surrounding_new"
+
+        android:paddingTop="6dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="34dp"
+
+        android:id="@+id/CL2"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:id="@+id/tvg2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="5dp"
+            android:text="C o n t e n t"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:text="2 out of 6 Passed"
+            android:id="@+id/conTVid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="29dp"
+            />
+        <ProgressBar
+            android:id="@+id/progressCON"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:max="100"
+            app:layout_constraintTop_toBottomOf="@id/conTVid"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="60dp"
+            android:progress="10"
+            android:progressBackgroundTint="#880002"
+            android:progressTint="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/progressCON"
+             android:text="33%"
+            android:textStyle="bold"
+            android:layout_marginTop="-3dp"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:textColor="#000000"
+            android:layout_marginRight="5dp"
+            android:textSize="11dp"
+            android:id="@+id/conTVscore"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Speed -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/CL2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/element_surrounding_new"
+
+        android:id="@+id/CL3"
+
+        android:paddingTop="6dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="34dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:id="@+id/tvg3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="S p e e d"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:text="Fair Load Speed"
+            android:id="@+id/fgpSpeedTVid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="29dp"
+            />
+        <ProgressBar
+            android:id="@+id/progressSPEED"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:max="100"
+            app:layout_constraintTop_toBottomOf="@id/fgpSpeedTVid"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            android:progress="12"
+            android:progressBackgroundTint="#880002"
+            android:progressTint="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/progressSPEED"
+             android:text="12%"
+            android:textStyle="bold"
+            android:layout_marginTop="-3dp"
+            android:textColor="#000000"
+            android:layout_marginRight="5dp"
+            android:textSize="11dp"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:id="@+id/fgpSpeedTVscore"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Structure & Quality -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/CL3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/CL4"
+        android:background="@drawable/element_surrounding_new"
+
+        android:paddingTop="6dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="34dp"
+
+        android:layout_marginBottom="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:id="@+id/tvg4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="5dp"
+            android:text="S t r u c t u r e"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:text="(6 out of 12 Passed)"
+            android:textStyle="bold"
+            android:id="@+id/fgpStrucTVid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="29dp"
+            />
+        <ProgressBar
+            android:id="@+id/progressSTRUC"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:max="100"
+            app:layout_constraintTop_toBottomOf="@id/fgpStrucTVid"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
+            android:progress="50"
+            android:progressBackgroundTint="#880002"
+            android:progressTint="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/progressSTRUC"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:text="50%"
+            android:textStyle="bold"
+            android:layout_marginTop="-3dp"
+            android:textColor="#000000"
+            android:layout_marginRight="5dp"
+            android:textSize="11dp"
+            android:id="@+id/fgpStrucTVscore"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

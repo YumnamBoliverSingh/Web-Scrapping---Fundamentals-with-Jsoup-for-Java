@@ -1,0 +1,2853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:id="@+id/CLabhi1"-->
+<!--        >-->
+<!--        &lt;!&ndash; OnPAgeSeo HEre &ndash;&gt;-->
+<!--        <HorizontalScrollView-->
+<!--            android:layout_width="match_parent"-->
+
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            android:id="@+id/hscv1itemz"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <ScrollView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:scrollbars="none"-->
+
+<!--                >-->
+
+<!--                <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="1dp"-->
+<!--                        android:layout_height="10dp"-->
+<!--                        android:background="#818181"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        app:layout_constraintEnd_toEndOf="@id/abu1" />-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="0.1dp"-->
+<!--                        android:layout_height="10dp"-->
+<!--                        android:background="#818181"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        app:layout_constraintEnd_toEndOf="@id/abu2" />-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="0.1dp"-->
+<!--                        android:layout_height="10dp"-->
+<!--                        android:background="#818181"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        app:layout_constraintEnd_toEndOf="@id/abu3" />-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="0.1dp"-->
+<!--                        android:layout_height="10dp"-->
+<!--                        android:background="#818181"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        app:layout_constraintEnd_toEndOf="@id/abu4" />-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="0.1dp"-->
+<!--                        android:layout_height="10dp"-->
+<!--                        android:background="#818181"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        app:layout_constraintEnd_toEndOf="@id/abu5" />-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="0.1dp"-->
+<!--                        android:layout_height="10dp"-->
+<!--                        android:background="#818181"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        app:layout_constraintEnd_toEndOf="@id/abu6" />-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="0.1dp"-->
+<!--                        android:layout_height="10dp"-->
+<!--                        android:background="#818181"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        app:layout_constraintEnd_toEndOf="@id/abu7" />-->
+
+
+<!--                    &lt;!&ndash; Hbar1 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:id="@+id/abu1"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:paddingRight="10dp"-->
+<!--                        android:background="#ffffff"-->
+
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintTop_toTopOf="parent">-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Overview"-->
+<!--                            android:textColor="#880002"-->
+<!--                            android:textSize="10dp"-->
+<!--                            android:id="@+id/t1"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            android:textStyle="normal" />-->
+
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    &lt;!&ndash; Hbar2 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:id="@+id/abu2"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingBottom="5dp"-->
+
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:paddingRight="10dp"-->
+
+<!--                        app:layout_constraintStart_toEndOf="@id/abu1"-->
+<!--                        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Headers"-->
+<!--                            android:textColor="#880002"-->
+<!--                            android:textSize="10dp"-->
+<!--                            android:gravity="center_horizontal"-->
+<!--                            android:id="@+id/t2"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            android:textStyle="normal" />-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    &lt;!&ndash; Hbar3 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:id="@+id/abu3"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="#ffffff"-->
+
+<!--                        android:paddingBottom="5dp"-->
+
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:paddingRight="10dp"-->
+
+<!--                        app:layout_constraintStart_toEndOf="@id/abu2"-->
+<!--                        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Body"-->
+<!--                            android:textColor="#880002"-->
+<!--                            android:textSize="10dp"-->
+<!--                            android:id="@+id/t3"-->
+<!--                            android:gravity="center_horizontal"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            android:textStyle="normal" />-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    &lt;!&ndash; Hbar4 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:id="@+id/abu4"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="#ffffff"-->
+
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:paddingRight="10dp"-->
+
+<!--                        app:layout_constraintStart_toEndOf="@id/abu3"-->
+<!--                        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Hyperlinks"-->
+<!--                            android:textColor="#880002"-->
+<!--                            android:textSize="10dp"-->
+<!--                            android:gravity="center_horizontal"-->
+<!--                            android:id="@+id/t4"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            android:textStyle="normal" />-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    &lt;!&ndash; Hbar5 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:id="@+id/abu5"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="#ffffff"-->
+
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:paddingRight="10dp"-->
+<!--                        app:layout_constraintStart_toEndOf="@id/abu4"-->
+<!--                        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Images/Alt"-->
+<!--                            android:textColor="#880002"-->
+<!--                            android:textSize="10dp"-->
+<!--                            android:id="@+id/t5"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            android:textStyle="normal" />-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    &lt;!&ndash; Hbar6 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:id="@+id/abu6"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="#ffffff"-->
+
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:paddingRight="10dp"-->
+
+<!--                        app:layout_constraintStart_toEndOf="@id/abu5"-->
+<!--                        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Rel Canonical Link"-->
+<!--                            android:id="@+id/t6"-->
+<!--                            android:textColor="#880002"-->
+<!--                            android:textSize="10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            android:textStyle="normal" />-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    &lt;!&ndash; Hbar7 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:id="@+id/abu7"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="#ffffff"-->
+
+<!--                        android:paddingLeft="10dp"-->
+<!--                        android:paddingRight="10dp"-->
+
+<!--                        app:layout_constraintStart_toEndOf="@id/abu6"-->
+<!--                        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Favicon"-->
+
+<!--                            android:id="@+id/t7"-->
+<!--                            android:textColor="#880002"-->
+<!--                            android:textSize="10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--                            android:textStyle="normal" />-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<!--                    &lt;!&ndash; Highlighters: 1 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="59dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        app:layout_constraintStart_toStartOf="@id/abu1"-->
+<!--                        app:layout_constraintTop_toTopOf="@id/abu1"-->
+<!--                        android:background="#63FFF8F8"-->
+
+<!--                        android:id="@+id/HIGHabu1"-->
+<!--                        />-->
+<!--                    &lt;!&ndash; Highlighters: 2 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="58dp"-->
+<!--                        android:layout_height="15dp"-->
+
+<!--                        app:layout_constraintStart_toStartOf="@id/abu2"-->
+<!--                        app:layout_constraintTop_toTopOf="@id/abu2"-->
+<!--                        android:background="#63FFF8F8"-->
+<!--                        android:id="@+id/HIGHabu2"-->
+<!--                        />-->
+<!--                    &lt;!&ndash; Highlighters: 3 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="40dp"-->
+<!--                        android:layout_height="15dp"-->
+
+<!--                        app:layout_constraintStart_toStartOf="@id/abu3"-->
+<!--                        app:layout_constraintTop_toTopOf="@id/abu3"-->
+<!--                        android:background="#63FFF8F8"-->
+<!--                        android:id="@+id/HIGHabu3"-->
+<!--                        />-->
+<!--                    &lt;!&ndash; Highlighters: 4 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="65dp"-->
+<!--                        android:layout_height="15dp"-->
+
+<!--                        app:layout_constraintStart_toStartOf="@id/abu4"-->
+<!--                        app:layout_constraintTop_toTopOf="@id/abu4"-->
+<!--                        android:background="#63FFF8F8"-->
+<!--                        android:id="@+id/HIGHabu4"-->
+<!--                        />-->
+<!--                    &lt;!&ndash; Highlighters: 5 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="68dp"-->
+<!--                        android:layout_height="15dp"-->
+
+<!--                        app:layout_constraintStart_toStartOf="@id/abu5"-->
+<!--                        app:layout_constraintTop_toTopOf="@id/abu5"-->
+<!--                        android:background="#63FFF8F8"-->
+<!--                        android:id="@+id/HIGHabu5"-->
+<!--                        />-->
+<!--                    &lt;!&ndash; Highlighters: 6 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="100dp"-->
+<!--                        android:layout_height="15dp"-->
+
+<!--                        app:layout_constraintStart_toStartOf="@id/abu6"-->
+<!--                        app:layout_constraintTop_toTopOf="@id/abu6"-->
+<!--                        android:background="#63FFF8F8"-->
+<!--                        android:id="@+id/HIGHabu6"-->
+<!--                        />-->
+<!--                    &lt;!&ndash; Highlighters: 7 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="65dp"-->
+<!--                        android:layout_height="15dp"-->
+
+<!--                        app:layout_constraintStart_toStartOf="@id/abu7"-->
+<!--                        app:layout_constraintTop_toTopOf="@id/abu7"-->
+<!--                        android:background="#63FFF8F8"-->
+<!--                        android:id="@+id/HIGHabu7"-->
+<!--                        />-->
+
+
+
+<!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--            </ScrollView>-->
+<!--        </HorizontalScrollView>-->
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="390dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="5dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:layout_marginTop="19dp"-->
+<!--            >-->
+<!--            &lt;!&ndash; 1. Content &ndash;&gt;-->
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:id="@+id/opseo_overview"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:paddingTop="5dp"-->
+<!--                android:paddingBottom="5dp"-->
+<!--                android:paddingRight="10dp"-->
+<!--                android:visibility="gone"-->
+<!--                >-->
+<!--                <androidx.core.widget.NestedScrollView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:background="#F0EFF4"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    ><androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                    <ScrollView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        ><androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+<!--                        &lt;!&ndash;  1. Website URL Report  &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo1"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img11"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img12"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv1"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv1"-->
+<!--                                    android:textColor="#4A4A4A"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  3. Title &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo3"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo1"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img31"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img32"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv3"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv3"-->
+<!--                                    android:textColor="#4A4A4A"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  4. Meta Description &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo4"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo3"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img41"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img42"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv4"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv4"-->
+<!--                                    android:textColor="#4A4A4A"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  5. Meta Robots &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo5"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo4"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img51"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img52"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv5"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv5"-->
+<!--                                    android:textColor="#4A4A4A"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  6. Meta Tag View Port &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo6"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo5"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img61"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img62"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv6"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv6"-->
+<!--                                    android:textColor="#4A4A4A"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  7. Rel Canonical Link Tag &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo7"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo6"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img71"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img72"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv7"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv7"-->
+<!--                                    android:textColor="#4A4A4A"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  8. Meta Author Tag &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo8"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo7"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img81"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img82"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv8"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv8"-->
+<!--                                    android:textColor="#4A4A4A"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  9. Meta Keywords Tag &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo9"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo8"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img91"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img92"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv9"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv9"-->
+<!--                                    android:textColor="#4A4A4A"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  10. Header H1 &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo10"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo9"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img101"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img102"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv10"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv10"-->
+<!--                                    android:textColor="#4A4A4A"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  11. Header H2 &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo11"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo10"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img111"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img112"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv11"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv11"-->
+<!--                                    android:textColor="#4A4A4A"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  12. Header H3 &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo12"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo11"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img121"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img122"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv12"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv12"-->
+<!--                                    android:textColor="#7C7C7C"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash;  13. Header H4  &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo13"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo12"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img131"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img132"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv13"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv13"-->
+<!--                                    android:textColor="#7C7C7C"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; 14. Links &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo14"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo13"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img141"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img142"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv14"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv14"-->
+<!--                                    android:textColor="#7C7C7C"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; 15. Images  &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/opseo15"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@id/opseo14"-->
+<!--                            android:background="#ffffff"-->
+<!--                            android:paddingTop="3dp"-->
+<!--                            android:layout_marginTop="2.5dp"-->
+<!--                            android:paddingBottom="9dp"-->
+<!--                            android:paddingLeft="3dp"-->
+<!--                            android:paddingRight="7dp"-->
+<!--                            >-->
+<!--                            &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="16.5dp"-->
+<!--                                android:layout_height="16.5dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginTop = "10dp"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                >-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:id="@+id/img151"-->
+<!--                                    android:src="@drawable/green_check_icon_drawable"-->
+<!--                                    />-->
+<!--                                <ImageView-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="match_parent"-->
+<!--                                    android:visibility="invisible"-->
+<!--                                    android:id="@+id/img152"-->
+<!--                                    android:background="@drawable/red_circle"-->
+<!--                                    android:src="@drawable/red_close_icon_drawable"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                android:layout_marginLeft="20dp"-->
+
+<!--                                ><TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:textStyle="bold"-->
+<!--                                android:id="@+id/headtv15"-->
+<!--                                android:textSize="13.7dp"-->
+<!--                                android:textColor="#000000"-->
+<!--                                android:text="Your Page Has 1 Header"-->
+<!--                                />-->
+
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                            &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:background="@drawable/bckg_contents_astph"-->
+<!--                                android:paddingTop="4dp"-->
+<!--                                android:paddingBottom="4dp"-->
+<!--                                android:paddingLeft="14dp"-->
+<!--                                android:paddingRight="14dp"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent"-->
+<!--                                android:layout_marginTop="30dp"-->
+<!--                                android:layout_marginLeft="35dp"-->
+<!--                                >-->
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:text="We Create Only Quality Contents"-->
+<!--                                    android:id="@+id/bodytv15"-->
+<!--                                    android:textColor="#7C7C7C"-->
+<!--                                    android:textSize="10dp"-->
+<!--                                    />-->
+
+<!--                            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </ScrollView>-->
+
+
+<!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                </androidx.core.widget.NestedScrollView>-->
+
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--            &lt;!&ndash; 2. Headers &ndash;&gt;-->
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:id="@+id/opseo_headers"-->
+
+<!--                android:paddingLeft="10dp"-->
+<!--                android:paddingTop="5dp"-->
+<!--                android:paddingBottom="5dp"-->
+<!--                android:paddingRight="10dp"-->
+
+<!--                >-->
+<!--                <androidx.core.widget.NestedScrollView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:background="#F0EFF4"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    ><androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                    &lt;!&ndash;  1. Website URL Report  &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo1"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img11"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img12"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv1"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv1"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  3. Title &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo3"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo1"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img31"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img32"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv3"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv3"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  4. Meta Description &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo4"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo3"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img41"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img42"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv4"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv4"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  5. Meta Robots &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo5"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo4"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img51"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img52"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv5"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv5"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  6. Meta Tag View Port &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo6"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo5"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img61"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img62"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv6"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv6"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  7. Rel Canonical Link Tag &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo7"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo6"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img71"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img72"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv7"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv7"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  8. Meta Author Tag &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo8"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo7"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img81"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img82"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv8"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv8"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  9. Meta Keywords Tag &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo9"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo8"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img91"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img92"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv9"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv9"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  10. Header H1 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo10"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo9"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img101"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img102"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv10"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv10"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  11. Header H2 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo11"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo10"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img111"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img112"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv11"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv11"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  12. Header H3 &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo12"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo11"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img121"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img122"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv12"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv12"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash;  13. Header H4  &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo13"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo12"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img131"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img132"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv13"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv13"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash; 14. Links &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo14"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo13"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img141"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img142"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv14"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv14"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                    &lt;!&ndash; 15. Images  &ndash;&gt;-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/opseo15"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toBottomOf="@id/opseo14"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:paddingTop="3dp"-->
+<!--                        android:layout_marginTop="2.5dp"-->
+<!--                        android:paddingBottom="9dp"-->
+<!--                        android:paddingLeft="3dp"-->
+<!--                        android:paddingRight="7dp"-->
+<!--                        >-->
+<!--                        &lt;!&ndash; Green Tick, or Red Close IV &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="16.5dp"-->
+<!--                            android:layout_height="16.5dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginTop = "10dp"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            >-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:id="@+id/img151"-->
+<!--                                android:src="@drawable/green_check_icon_drawable"-->
+<!--                                />-->
+<!--                            <ImageView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:visibility="invisible"-->
+<!--                                android:id="@+id/img152"-->
+<!--                                android:background="@drawable/red_circle"-->
+<!--                                android:src="@drawable/red_close_icon_drawable"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Heading of an OPSEO Item &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            android:layout_marginLeft="20dp"-->
+
+<!--                            ><TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:id="@+id/headtv15"-->
+<!--                            android:textSize="13.7dp"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:text="Your Page Has 1 Header"-->
+<!--                            />-->
+
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        &lt;!&ndash; Contents &ndash;&gt;-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/bckg_contents_astph"-->
+<!--                            android:paddingTop="4dp"-->
+<!--                            android:paddingBottom="4dp"-->
+<!--                            android:paddingLeft="14dp"-->
+<!--                            android:paddingRight="14dp"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_marginLeft="35dp"-->
+<!--                            >-->
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="We Create Only Quality Contents"-->
+<!--                                android:id="@+id/bodytv15"-->
+<!--                                android:textColor="#7C7C7C"-->
+<!--                                android:textSize="10dp"-->
+<!--                                />-->
+
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+
+
+
+<!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                </androidx.core.widget.NestedScrollView>-->
+
+
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--            &lt;!&ndash; 3. &ndash;&gt;-->
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:id="@+id/opseo_body"-->
+<!--                >-->
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--            &lt;!&ndash; 4. &ndash;&gt;-->
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:id="@+id/opseo_hyperlinks"-->
+<!--                >-->
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--            &lt;!&ndash; 5. &ndash;&gt;-->
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:id="@+id/opseo_imagesoralt"-->
+<!--                >-->
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--            &lt;!&ndash; 6. &ndash;&gt;-->
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:id="@+id/opseo_rellinkcanonical"-->
+<!--                >-->
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--            &lt;!&ndash; 7. &ndash;&gt;-->
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:id="@+id/opseo_favicon"-->
+<!--                >-->
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

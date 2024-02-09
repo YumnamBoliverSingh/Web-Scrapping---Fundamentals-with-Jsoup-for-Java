@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        >&lt;!&ndash; Seconds &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:id="@+id/score_siteloadduration_1st"-->
+<!--            android:text="0.32542"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="35dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintTop_toTopOf="@id/score_siteloadduration_1st"-->
+<!--            app:layout_constraintStart_toEndOf="@id/score_siteloadduration_1st"-->
+<!--            android:text="Secs"-->
+<!--            android:layout_marginLeft="3dp"-->
+<!--            />-->
+<!--        &lt;!&ndash; millis &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintStart_toStartOf="@id/score_siteloadduration_1st"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/score_siteloadduration_1st"-->
+<!--            android:id="@+id/score_siteloadduration_2nd"-->
+<!--            android:text="~ 32542 millis"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="10dp"-->
+<!--            />-->
+<!--        &lt;!&ndash; speed designation &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/tv_score_speed"-->
+<!--            android:text="Fair Load Speed"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/score_siteloadduration_1st"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/score_siteloadduration_1st"-->
+<!--            app:layout_constraintStart_toStartOf="@id/score_siteloadduration_1st"-->
+<!--            />-->
+<!--        &lt;!&ndash; Summary about Site Speed: 1. took 5 seconds. This is a Perfect Site Speed &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/score_siteloadduration_2nd"-->
+<!--            android:layout_marginTop="120dp"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:paddingTop="5dp"-->
+<!--            android:paddingBottom="5dp"-->
+<!--            android:background="@drawable/background_speed_score"-->
+<!--            android:paddingLeft="25dp"-->
+<!--            android:id="@+id/tv_sample"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#CEA80002"-->
+<!--            android:paddingRight="25dp"-->
+<!--            android:text="Your site took 3.25 seconds to Load.\nThis is a Fair Load Speed"-->
+<!--            />-->
+<!--        &lt;!&ndash; Why a good Site Speed is needed &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            android:paddingLeft="5dp"-->
+<!--            android:paddingRight="5dp"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginRight="5dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:textSize="12dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            android:id="@+id/tv_whyagoodsitespeedisneeded"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tv_sample"-->
+<!--            android:text="@string/string_whyfastspeedisneeded"-->
+<!--            />-->
+<!--        &lt;!&ndash; Recommended Practices: ScrollView included &ndash;&gt;-->
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:id="@+id/scv_recommended_speed"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_marginRight="15dp"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tv_whyagoodsitespeedisneeded"-->
+<!--            ><androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                android:textSize="10dp"-->
+<!--                android:text="@string/string_recommended"-->
+<!--                />-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--        </ScrollView>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            android:id="@+id/tv_suggestion_speed"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            android:paddingLeft="20dp"-->
+<!--            android:paddingRight="20dp"-->
+<!--            android:textColor="#000000"-->
+<!--            android:background="#E8E8E8"-->
+<!--            android:paddingTop="10dp"-->
+<!--            android:paddingBottom="20dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            android:text="@string/string_site_load_Speed_distribution"-->
+<!--            />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

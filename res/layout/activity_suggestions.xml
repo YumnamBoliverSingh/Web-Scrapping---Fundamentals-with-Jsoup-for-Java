@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuggestionsActivity"><ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    ><androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <!-- 1 Suggestion | Website URL -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/suggestions1"
+        >
+        <TextView
+            android:id="@+id/tgnm2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+            android:paddingBottom="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+             android:text="Website URL"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+   />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/url_clsuggestions"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions \?"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su1"
+                app:layout_constraintTop_toBottomOf="@id/ll"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su1"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt1"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt1"
+                android:text="@string/url_suggestions_string"
+
+                android:textSize="13.5dp"
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su1"
+                android:layout_marginTop="14dp"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 2 Suggestion | HTML Source Code -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestions1"
+
+        android:id="@+id/suggestions2"
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="HTML Source Code"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+         />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/htmlsourcecode_clsuggestions"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll2"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions \?"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su2"
+                app:layout_constraintTop_toBottomOf="@id/ll2"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su2"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt2"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt2"
+                android:text="@string/html_suggestions_string"
+
+                android:textSize="13.5dp"
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su2"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 3 Suggestion | Title Tag -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestions2"
+
+        android:id="@+id/suggestions3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Title Tag"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+       />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/title_clsuggestions"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll3"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions \?"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su3"
+                app:layout_constraintTop_toBottomOf="@id/ll3"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su3"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt3"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt3"
+                android:text="@string/title_suggestions_string"
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su3"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 4 Suggestion | Headers H1 to H6 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestions3"
+
+        android:id="@+id/suggestions4"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Headers(H1 - H6)"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+       />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/headers_clsuggestions"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:orientation="horizontal"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll4"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions \?"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su4"
+                app:layout_constraintTop_toBottomOf="@id/ll4"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su4"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt4"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt4"
+                android:text="@string/headers_suggestion_String"
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su4"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 5 Suggestion | Body Tag Contents Suggestion -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestions4"
+
+        android:id="@+id/suggestions5"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Body Tag - Block Report"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/body_clsuggestions"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:orientation="horizontal"
+
+                android:layout_marginTop="3dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll5"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions \?"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su5"
+                app:layout_constraintTop_toBottomOf="@id/ll5"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su5"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt5"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt5"
+                android:text="@string/body_string"
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su5"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 6 Suggestion | Links -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestions5"
+
+        android:id="@+id/suggestions6"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Links: Internal/External/Outbound"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+  />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/links_clsuggestions"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:orientation="horizontal"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll6"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions \?"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su6"
+                app:layout_constraintTop_toBottomOf="@id/ll6"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su6"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt6"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt6"
+                android:text="@string/href_reports_links_suggestions"
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su6"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 7 Suggestion | Img ALT Attribute -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestions6"
+
+        android:id="@+id/suggestions7"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="IMG Alt Attribute"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+ />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/images_clsuggestions"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:orientation="horizontal"
+
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll7"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions \?"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su7"
+                app:layout_constraintTop_toBottomOf="@id/ll7"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su7"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt7"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt7"
+                android:text="@string/img_suggestions"
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su7"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 8 Suggestion | KeyWord Research Tool Guide -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestions7"
+
+        android:id="@+id/suggestions8"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Keyword Research Tool - K R T"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="15dp"
+            android:id="@+id/keywords_clsuggestions"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:orientation="horizontal"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll8"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions \?"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su8"
+                app:layout_constraintTop_toBottomOf="@id/ll8"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su8"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt8"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt8"
+                android:text="@string/keywords_suggestions"
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su8"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 9 Suggestion | Page Favicon-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestions8"
+
+        android:id="@+id/suggestions9"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Page Favicon"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/pagefavicon_clsuggestions"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll9"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions \?"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su9"
+                app:layout_constraintTop_toBottomOf="@id/ll9"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su9"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt9"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt9"
+                android:text="@string/page_favicon_suggestion"
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su9"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 10 Suggestion | Meta Description Tags -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestions9"
+
+        android:id="@+id/suggestions10"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Meta Description Tag"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/metaDescription_clsuggestions"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll14"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su14"
+                app:layout_constraintTop_toBottomOf="@id/ll14"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su14"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt14"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt14"
+                android:text="Read here about suggestions and tips related to Meta Description Tags."
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su14"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 11 Suggestion | Meta Robots Tag -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suggestions10"
+
+        android:id="@+id/suggestions11"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Meta Robots Tag"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/metaRobots_clsuggestions"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:orientation="horizontal"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll15"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su15"
+                app:layout_constraintTop_toBottomOf="@id/ll15"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su15"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt15"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt15"
+                android:text="Read here about suggestions and tips related to Meta Robots Tags."
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su15"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 12 Suggestions | Meta Tag View Port -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/suggestions11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/suggestions12"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Meta Tag View Port"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/metaViewPort_tag_clsuggestions"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:orientation="horizontal"
+
+                android:id="@+id/ll16"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su16"
+                app:layout_constraintTop_toBottomOf="@id/ll16"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su16"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt16"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt16"
+                android:text="Read here about suggestions and tips related to Meta tag View Port."
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su16"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--  13 Suggestions | Rel Canonical Tag -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/suggestions12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/suggestions13"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Link Rel Canonical Tag"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="15dp"
+            android:id="@+id/relCanonicalLinkTag_clsuggestions"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll17"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su17"
+                app:layout_constraintTop_toBottomOf="@id/ll17"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su17"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt17"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt17"
+                android:text="Read here about suggestions and tips related to rel=Canonical tag."
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su17"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 14 Suggestions | Meta KEywords Tag -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/suggestions13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/suggestions14"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Meta Keywords Tag"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="15dp"
+            android:id="@+id/meta_keywords_clsuggestions"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll19"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su19"
+                app:layout_constraintTop_toBottomOf="@id/ll19"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su19"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt19"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt19"
+                android:text="Read here about suggestions and tips related to Meta Keywords thor tag."
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su19"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--  15 Suggestions | MEta Author Tag -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/suggestions14"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/suggestions15"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:background="@color/toolbar_red"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="2.5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:paddingBottom="2.5dp"
+            android:text="Meta Author Tag"
+            android:textColor="@color/white"
+            android:textSize="10.5dp"
+
+            android:textStyle="bold"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/meta_author_clsuggestions"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <!-- suggestions tv no values at dynamic -->
+            <!-- read now button -->
+            <!-- suggestions text view from string resource -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/ll18"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suggestions"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold|italic"
+                android:textSize="11dp"
+                android:textColor="#000000"
+                android:layout_marginTop="4dp"
+                android:id="@+id/su18"
+                app:layout_constraintTop_toBottomOf="@id/ll18"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/su18"
+                android:text="Read Here .."
+                android:paddingLeft="26dp"
+                android:textColor="#776F6F"
+                android:paddingRight="26dp"
+                android:textStyle="bold"
+                android:id="@+id/rntxt18"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/sutxt18"
+                android:text="Read here about suggestions and tips related to Meta Author tag."
+
+                android:background="#F3F3F3"
+
+                android:paddingTop="3.5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+
+
+                android:textColor="@color/black"
+                app:layout_constraintTop_toBottomOf="@id/su18"
+                android:layout_marginTop="14dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
